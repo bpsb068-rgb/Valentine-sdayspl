@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Valentine ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio id="music" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="hearts"></div>
+
+<!-- INTRO -->
+<div id="intro" class="screen active">
+  <h1 class="fade">Hey Chirag…yes you ❤️</h1>
+  <h1 class="fade delay1">I met you 💖</h1>
+  <h1 class="fade delay2">I liked you...And💕</h1>
+  <h1 class="fade delay3">I’m keeping you 💘</h1>
+  <button onclick="start()">Continue 💌</button>
+</div>
+
+<!-- QUESTION -->
+<div id="question" class="screen">
+  <h1>Will you be my Valentine? 💖</h1>
+  <div class="buttons">
+    <button id="yes" onclick="startSlideshow()">YES ❤️</button>
+    <button id="no">NO 💔</button>
+  </div>
+</div>
+
+<!-- SLIDESHOW -->
+<div id="slideshow" class="screen">
+  <img src="img1.jpg" class="slide active">
+  <img src="img2.jpg" class="slide">
+  <img src="img3.jpg" class="slide">
+  <img src="img4.jpg" class="slide">
+</div>
+
+<!-- FINAL -->
+<div id="final" class="screen">
+
+  <!-- Dancing couple -->
+  <div class="dance">
+    💃❤️🕺
+  </div>
+
+  <h1 class="blast glow">
+    I LOVE YOU BABE ❤️
+  </h1>
+
+  <h2 class="subtext">
+    Happy Valentine’s Day 🧸💋
+  </h2>
+
+</div>
+
+  <div class="sparkles"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
